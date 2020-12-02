@@ -1,0 +1,88 @@
+/* tag rest */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+body {
+	font-family: "Malgun Gothic";
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	width:90%;
+    margin:0 auto;
+    text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: #666;
+	color: #fff;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+section {
+	background: #f5f5f5;
+	padding: 50px;
+}
+
+article {
+	width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	font-size: 13px;
+}
+
+article ul, li {
+	list-style: none;
+}
+
+article table {
+	border-top: 2px solid #666;
+	width: 100%;
+}
+
+article td, article th {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	padding: 0 10px;
+}
+
+article th {
+	background: #f5f5f5;
+}
+
+article input[type="text"] {
+	height: 30px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+}
+
+/* public class*/
+.btn_group {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.btn_group.right {
+	text-align: right;
+}
+
+.btn_group button {
+	width: 80px;
+	height: 30px;
+	border: none;
+	background: #444;
+	color: #fff;
+}
